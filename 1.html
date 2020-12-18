@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<title>WEB1 - html 코딩일기 </title>
+<meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.html"> WEB</a></h1>
+<ol>
+  <li> <a href="1-1.html">첫 눈 온 날</a></li>
+  <li> <a href="1.html">코딩 일기</a></li>
+  <li> <a href="2.html">HTML</a></li>
+  <li> <a href="3.html">CSS</a></li>
+  <li> <a href="4.html">JavaScript</a></li>
+</ol>
+
+<h2> <코딩 일기></h2>
+<h3>첫 눈 온 날</h3>
+<h4>2020. 12. 13. 일. 날씨: 흐리고 맑음.</h4>
+오늘은 12월13일. 진짜 <strong><u>첫</u> 눈</strong>은 아니지만 내가 직접 본 것을 기준으로 첫 눈이 왔다.
+<br>이 단락은 12월 17일에 쓴다. 그동안 왓챠랑 넷플릭스 보느라 코딩 수업을 듣지 못했다.
+<br> 지금부터는 여기에 수업 내용을 추가해볼까 한다.
+<br>지금 해봤는데 들여쓰기를 해도 웹에서는 들여쓰기가 먹히지 않는 것 같다.
+나중에 들여쓰는 방법을찾아봐야겠다.
+<p>HTML</P>
+<p><u>br태그와 css의 p태그</u><br>p태그를 배웠다. p태그는 br태그와 달리 쌍으로 존재한다. br태그는 줄 바꿈을 나타내는
+  태그여서 쌍으로 존재하지 않는다. br태그는 여러번 쓰면 (br br 처럼)더 넓은 간격이 띄워진다. p태그는 여기부터 여기까지가 한 문단임을 표현하는
+  태그이다.</p>
+<p style="margin-top:45px;"><a href="https://www.w3.org/TR/html52/" target="_blank" title="html5 specification"> html</a>이 아닌 css문법 중에 문단 사이의 간격을 표현할 수 있는
+    방법이 있다. 위 처럼 이렇게(p style="margin-top:45px;") 하면 되는데 윗 간격을 지정하고 싶어서 top이라고 쓴 것이다.
+     ;는 써야하는건지 말아야 하는 건지 모르겠다.</p>
+<p><u>블로그 등에 글을 쓸 때 포멧을 이용해야 하는 이유</u><br>글을 쓸 때 그저 글자의 크기를 키우고 볼드하게 만드는 방법으로 제목을 표현하는 것보다
+포멧, 소스(html 소스)를 이용함으로써 h1,h2등의 태그를 이용해 제목을 표현하면 인터넷에서는
+후자를 '제목'으로 인식해 다른 사람이 검색했을 때 더 앞쪽에 위치하도록 해주어 더 경쟁력을 가질 수 있다.
+즉, 비즈니스적인 측면에서 중요하다. </p>
+<p><u>이미지 추가하는 방법</u>
+  <br>img src="(사진 주소/사진 파일명)" 코드를 이용해서 이미지를 추가할 수 있다. src는 source의 약자다.
+  unsplash라는 사이트는 저작권 없는 좋은 이미지를 가지고 있는 활용하기 좋은 사이트다.
+  <img src="coding.jpg"><br>내가 코딩 수업 시작할 때 만든 web 파일에 이 사진을 저장시켰더니 atom에서도
+  web 파일 안에 사진이 들어온게 보였다
+  <br> img src="(사진 주소/사진 파일명)" 뒤에 width="숫자 혹은 퍼센트"를 쓰면 사진 크기 조정이 가능하다.
+  src="coding.jpg", width="100%" 등의 속성은 표시하는 순서는 상관없다. 둘이 순서가 바뀌어도 상관없음.
+  <img src="coding.jpg" width="100%">
+  <br><span style="font-size:11px;"> img src="coding.jpg" width="100%" 한 것.</span>
+  <br><br>이 글씨는 블로그 쓸 때 사진에 대한 설명은 글씨를 조금 작게 쓰는 것처럼 표현하기 위해 span style="font-size:11px;"와 /span
+  코드를 활용해 쓴 것이다. 유튜브에서 아직 설명해주지 않았는데 혼자 해봤다.
+<p> <u>li, ul, ol태그</u>
+  <br>목차를 만들 때에는 list의 약자인 li태그를 쓰면 된다. li태그는 /li태그와 짝을 지어 사용된다.
+  또, li태그는 ul이라는 부모태그를 가지고 있다. ul태그는 그룹을 만들어 다른 그룹과 구분해주는 태그다.
+  코딩을 더 쉽게 할 수 있는 팁으로는 tab키를 이용해 들여쓰기는 하는 방식이나 ctrl키를 누른 상태로 커서를
+  여러개 잡아 한꺼번에 코드를 작성하는 방법이 있다.
+  <br> ul태그 대신 ol태그를 이용하면 자동으로 앞에 숫자를 붙일 수 있다.
+  <br>ul은 unordered list의 약자, ol은 ordered list 의 약자다.</p>
+
+<p><u>본문의 속성 설명하는 title, meta charset,head-body, html, !doctype 태그</u>
+    <br>title 태그는 web의 제목을 정해주는 태그다.
+    <br><br>meta charset태그는 이 파일을 어떻게 열 것인지를 정해주는 태그다. 지금 이 atom은 파일을
+    utf-8로 저장하고 있다. 따라서 웹에서 열 때도 utf-8로 열어야 글자가 깨지지 않는다.
+    meta charset="utf-8"처럼 수식을 붙 표현하면 된다. charset은 character 과 set 의 합성어다.
+    <br><br>본문의 속성을 설명하는 태그는 head 태그로, 본문은 body태그로 묶는다.
+    <br>그리고 전체적으로는 html태그로 묶고, 제일 위에는 이 문서는 html 문서라는 뜻의 !doctype html 을 관용적으로 붙여준다.
+<p><u>a태그</u>
+  <br>anchor(닻)의 첫 글자를 딴 a. 링크를 표현하는 기능. a href="https://www.w3.org/TR/html52/" 이런 식으로 쓰면
+  된다 h는 하이퍼텍스트의 약자, ref는 참조를 뜻하는 reference의 약자다. 하이퍼텍스트를 눌렀을 때 새 탭이 나오게 하고 싶다면
+  a href="https://www.w3.org/TR/html52/" target="_blank" 이렇게, 하이퍼텍스트를 누르기 전에
+   미리보기처럼 제목을 띄우고 싶다면 title="html5 specification"을 추가하면 된다.
+    </body>
+    </html>
